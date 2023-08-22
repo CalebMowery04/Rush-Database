@@ -39,7 +39,7 @@ class InterviewWeighter:
         for row in processed_rows:
             score = float(row[3])
             interviewer = row[2]
-            adjusted_score = score - interviewer_avg_diff[interviewer]
+            adjusted_score = round((score - interviewer_avg_diff[interviewer])*2)/2
             row.append(adjusted_score)
             adjusted_rows.append(row)
 
