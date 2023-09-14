@@ -49,10 +49,10 @@ class Rush:
         )
 
 # CHANGE THESE =================================================================================
-sd_scores_filename = "real_data/sd_results_cleaned.csv"
-mingle_scores_filename = "real_data/bm_results_cleaned.csv"
+sd_scores_filename = "real_data/bm_results_cleaned.csv"
+mingle_scores_filename = "real_data/sd_results_cleaned.csv"
 
-rush_profile_filename = "real_data/rush_profile_cleaned.csv"
+rush_profile_filename = "real_data/rush_profile.csv"
 
 cut_sheet_filename = "real_data/cut.csv" # output file
 # ==============================================================================================
@@ -89,7 +89,7 @@ for i in range(len(score_filenames)):
         reader = csv.reader(f)
         data = list(reader)
     # add scores to local data
-    for row in data[0:]:
+    for row in data[1:]:
         found = False
         print(row[1].lower())
         if row[1].lower() == 'mpb6355':
