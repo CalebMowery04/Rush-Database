@@ -49,11 +49,11 @@ class Rush:
 
 
 # CHANGE THESE =================================================================================
-rush_profile_filename = "real_data/rush_profile_responses_updated_3.csv"
+rush_profile_filename = "real_data/rush_profile.csv"
 
 sd_scores_filename = "real_data/sd_results_cleaned.csv"
-mingle_scores_filename = "real_data/bm_results.csv"
-bbq_scores_filename = "real_data/bbq_results.csv"
+mingle_scores_filename = "real_data/bm_results_cleaned.csv"
+bbq_scores_filename = "real_data/bbq_results_cleaned.csv"
 
 # no votes used since fa 22
 # votes_filename = ["real_data/vote_responses_1.csv", "real_data/vote_responses_2.csv", "real_data/vote_responses_3.csv"]  
@@ -62,8 +62,8 @@ interview_responses_filename = "real_data/interview_scores.csv"
 rush_scores_filename = "real_data/rush_scores.csv"
 pm_scores_filename = "real_data/pm_scores.csv"
 
-cut_sheet_filename = "real_data/cut_sheet_cleaned.csv"
-cut_sheet_2_filename = "real_data/cut_sheet_2.csv"
+cut_sheet_filename = "real_data/cut.csv"
+cut_sheet_2_filename = "real_data/cut_info_2.csv"
 
 slides_info_filename = "real_data/slides_info.csv" # output file
 db_final_filename = "real_data/db_final_final.csv" # output file
