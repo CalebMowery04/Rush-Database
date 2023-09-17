@@ -47,8 +47,7 @@ class InterviewWeighter:
         with open(new_filename, 'w', newline='') as new_file:
             csv_writer = csv.writer(new_file)
             csv_writer.writerow(header)
-            csv_writer.writerows(adjusted_rows)
-
+            csv_writer.writerows(adjusted_rows) 
         return interviewer_avg_diff
 
 # CHANGE THESE =================================================================================
