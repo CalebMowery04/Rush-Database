@@ -183,6 +183,7 @@ with open(rush_scores_filename, newline="") as f:
 for row in data[1:]:
     for rush in rushes:
         if rush.id == row[1]:
+            print(rush)
             rush.rush_score = float(row[2])
             break
 
