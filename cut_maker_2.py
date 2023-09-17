@@ -159,6 +159,7 @@ with open(cut_sheet_2_filename, "w") as csvfile:
     )
     for rush in rushes:
         if not rush.cut:
+            
             csv_writer.writerow(
                 [
                     rush.name,
