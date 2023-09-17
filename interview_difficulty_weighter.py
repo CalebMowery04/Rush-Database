@@ -52,7 +52,7 @@ class InterviewWeighter:
         return interviewer_avg_diff
 
 # CHANGE THESE =================================================================================
-interview_results_filename = "old_data/fall2022interviews.csv"
+interview_results_filename = "real_data/interview_scores.csv"
 # ==============================================================================================
 
 weighter = InterviewWeighter(interview_results_filename)
