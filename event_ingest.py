@@ -116,10 +116,9 @@ def ingest(filenames, save_as):
 
 # CHANGE THESE =================================================================================
 event_responses_filenames = [
-    "real_data/bbq_results_1.csv",
-    "real_data/bbq_results_2.csv",
+    "old_data/Mock BBQ Results (actually just a copy of sd1) - Form Responses 1.csv",
 ]
-event_results_filename = "real_data/bbq_results_cleaned.csv" # output file
+event_results_filename = "real_data/spring_test_run.csv" # output file
 # ==============================================================================================
 
 rush_scores = ingest(event_responses_filenames, event_results_filename)
