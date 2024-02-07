@@ -65,7 +65,6 @@ rushes = []
 with open(rush_profile_filename, newline="") as f:
     reader = csv.reader(f)
     data = list(reader)
-
 for row in data[1:]:
     found = False
     for rush in rushes:
@@ -73,11 +72,11 @@ for row in data[1:]:
             found = True
     if not found:
         new_rush = Rush(row[1], row[2].lower())
-        new_rush.major = row[5]
-        new_rush.year = row[8]
-        new_rush.previously_knowns = row[9]
-        new_rush.clubs = row[10]
-        new_rush.gpa = row[11]
+        new_rush.major = row[4]
+        new_rush.year = row[7]
+        new_rush.previously_knowns = row[8]
+        new_rush.clubs = row[9]
+        new_rush.gpa = row[10]
         new_rush.email = row[3]
         rushes.append(new_rush)
 
@@ -91,13 +90,9 @@ for i in range(len(score_filenames)):
     # add scores to local data
     for row in data[1:]:
         found = False
-        print(row[1].lower())
-        if row[1].lower() == 'mpb6355':
-            print('ffound')
         for rush in rushes:
+            print(row)
             if rush.id == row[1].lower():
-                if rush.id == 'mpb6355':
-                    print('here')
                 found = True
                 rush.scores[i] = float(row[2])
                 rush.interactions[i] = int(row[4])
