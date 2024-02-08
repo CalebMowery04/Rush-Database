@@ -49,8 +49,8 @@ class Rush:
         )
 
 # CHANGE THESE =================================================================================
-sd_scores_filename = "real_data/bm_results.csv"
-mingle_scores_filename = "real_data/sd_results.csv"
+sd_scores_filename = "real_data/sd_results.csv"
+mingle_scores_filename = "real_data/bm_results.csv"
 
 rush_profile_filename = "real_data/rush_profile.csv"
 
