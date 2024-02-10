@@ -1,0 +1,65 @@
+Name,id,Cut,DB Score,Interview,Head Interviewer,PM,Rush,Rush Week Score,Major,Year,Previously Knowns,Clubs,GPA,Unique Interactions
+Quinn Burnett,qcb5019,False,0.8928571428571429,8.5,Aayod,1.0,1.0,90.14,Food Science ,Sophomore,N/A,Food Science Club,4,32
+Adya Gulati,axg6142,False,0.8022237196765498,9.0,Anushka,1.0,1.0,87.11,Pre-Med,Freshmen,"Harshi Chinnam, Maanya Devaprasad, Akshay Pai, Riya Shah, Areea Rahman","Jadhoom, Global Medical Brigades",4,32
+Henry Hughes-Perez,hoh5200,False,0.8429224924695409,8.0,Grace,1.0,1.0,86.15,Finance,Sophomore,N/A,Stoics at State,3.67,22
+Ruby Bjalme ,rrb5421,False,0.8752836713374879,8.5,Ketch,1.0,0.5,84.26,Marketing,Freshmen,"Brooke Kozak, Sophie Kersun, Emma Kowalski, Faith Ann Finch, Mckenna Schrenk, Bella Fernandes, Colton Shiry, Josh Noble","Nittany Lion Consulting Group, Sapphire Leadership Academic Program, Schreyer Consulting Group",3.8/4.0,35
+Adam Braim,azb6522,False,0.7583670260557053,8.5,Ben,1.0,1.0,83.42,Supply Chain,Sophomore,"Michael Mengine, Diego Pittorino","Sports Business Club, THON",3.42,37
+Caleb Levesque,cgl5215,False,0.8273809523809523,7.0,Yash,1.0,1.0,82.37,Finance,Freshmen,Matt Corr,Statesmen All-Male A Cappella Group,3.93,38
+Adam Lieb,adl5663,False,0.827398124395475,8.5,Aayod,1.0,0.5,81.87,General Science,Freshmen,"Ian Savitski, Lila Mathias","Club XC, Club Track + Field",3.8,30
+Ethan McCarthy ,eam6451,False,0.80859375,7.0,Aayod,1.0,1.0,81.43,Supply Chain ,Freshmen,"Akshay Pai, Colton Shiry, Monem Rizvi, Sruthi Ramesh, Faith Ann Finch, Joshua Noble, Isabella Fernandes, Brooke Kozak, Michelle Kelly, Palmer Moore ","Sapphire Academic Leadership Program, Schreyer Consulting Group, Consulting Training Program for NLCG, ",3.63,16
+Jack Beattie ,jib5801,False,0.7240506329113924,9.5,Diego,0.5,1.0,79.7,Film studies ,Sophomore,"Olivia, Jake licata",THON production ,2.6 (extenuating circumstance) (will email president email with reasoning behind this. ),35
+Reece Johnson,rdj5234,False,0.7892647058823529,6.5,Eric,1.0,1.0,78.96,Finance ,Freshmen,"Matt Corr, Zach Jarrett",Evans Scholars Foundation,3,17
+Anna Jiang,ajj5932,False,0.7963803186126235,7.5,Eric,1.0,0.5,77.32,Computer Science,Freshmen,"Rayhan Rahman, Maivy Dang, Rahil Mehta","Club Tennis, Atlas, Sase, SWE, R&R THON Committee",3.71,20
+Cole McCarthy ,cpm6307,False,0.7398496240601504,6.5,Ketch,1.0,1.0,76.49,Finance,Freshmen,N/A,"Men’s Club Basketball, Penn State Derivatives Association",3.76,27
+Morgan Sadlowe,mas8819,False,0.7822249589490969,9.0,Eric,1.0,0.0,76.11,Supply Chain Management and Information Systems,Sophomore,n/a,"Trilogy Thon Organization, Women In Business",3.75,19
+Nolan Riesenberger,nrr5322,False,0.895,7.0,Eric,0.0,1.0,75.75,Undecided,Freshmen,N/A,Thon Hospitality ,4,13
+Cody Steiert,cts5526,False,0.89375,7.0,Ben,0.0,1.0,75.69,Computer Engineering,Sophomore,RJ Shontz,"Institute of Electrical and Electronics Engineers, Nittany AI Student Society, Outdoor Volleyball Club",3.22,17
+Rohan Gupta,rvg5656,False,0.8808139534883721,5.5,Anushka,1.0,0.5,75.54,FInance,Freshmen,"Faith Ann Finch, Colton Shiry, Isabella Fernandes, Harshi Chinnam, Josh Noble","Nittany Lion Consulting Group, Schreyer Consulting Group, Penn State Club Track and Field",4,27
+Samantha Matthes,sgm5444,False,0.7981893106893106,8.5,Diego,0.5,0.5,75.41,Finance and Accounting,Sophomore,Sam Marshall,"Women in Business, Alzheimer's Awareness Club at Penn State, Club Golf Team",3.96,42
+Justine Finnegan ,jef5755,False,0.7925,5.25,Eric,1.0,1.0,75.37,Political Science ,Sophomore,N/A,N/A,3,25
+Daniel Roupas,ddr5276,False,0.8194444444444444,8.0,Ben,1.0,0.0,74.97,Undecided (Business Intended),Freshmen,Matt Corr,Creative Writing Club,2.6,19
+Mikayla Bowen,mgb5600,False,0.8261972802522665,6.0,Yash,1.0,0.5,74.31,English ,Freshmen,N/A,"THON Rules and Regulations Event Safety, Letters of Love Club ",3.4,31
+Rishi Chada,rrc5305,False,0.731418918918919,7.5,Yash,1.0,0.5,74.07,Data Science,Freshmen,Harshi Chinnam ,"Engineers in Action, Penn State SASA, Nittany Data Labs, Bits and Bytes for a Fight, Care2Share",3.72,27
+Shivani Venkatesh,smv5657,False,0.7408854166666666,9.0,Ben,1.0,0.0,74.04,Pre-Medicine,Freshmen,"Akshay Pai, Maanya Devaprasad, Harshi Chinnam","Penn State Natya, Infusion",3.94,35
+Cody Dietz,ctd5289,False,0.8002777777777778,8.0,Grace,0.5,0.5,74.01,Supply Chain & Information Systems,Freshmen,"Ian Savitski, Lila Mathias, McKenna Schrenk, Sam Marshall","Supply Chain Management Association (SCMA), Sigma Chi Mu Tau (SCMT), Blue & White Society",3.96,23
+Caleb Mowery,cmm8825,False,0.7927631578947368,9.5,Anushka,0.5,0.0,73.14,Computer Science,Freshmen,N/A,"Nittany AI Society, Outdoor Volleyball Club",4,19
+Drew Roman,anr5753,False,0.8690454124189064,6.0,Diego,1.0,0.0,71.45,Forensic Science (Chemistry) ,Freshmen,"Alex Katch, Jake Licata, Michael Licata, Aidan Miller, ","Science Lion Pride, THON FYC",3.91,46
+Aoi Osawa,ajo5646,False,0.7320804195804195,7.5,Anushka,0.5,0.5,69.1,Marketing,Sophomore,none,Women in Business,3.87,12
+Sanjna Rachakonda,sdr5518,False,0.7375,9.0,Ketch,0.0,0.5,68.88,Biomedical Engr or Computer Engr,Freshmen,N/A,"Nittany Ai Society, SASE, SASA, SWE",3.3-3.4,10
+Melissa Pham,mzp5850,False,0.7863562091503268,6.5,Ben,0.5,0.5,68.82,Marketing ,Sophomore,"Fabiana Corcino Zegarra, Gorja Yadav, Maddie Langlois, and Samantha Colon","Penn State Prime, THON, and Recruiting Intern for Penn State Football",3.59,18
+Samantha Martinborough,svm6720,False,0.7499572503419972,8.5,Eric,0.0,0.5,68.0,Finance,Freshmen,Gorja Yadav,"Pillar, Women In Business",3.85,30
+Anastacia Antonucci,aka6560,False,0.8462629259566299,6.5,Eric,0.0,0.5,66.81,Supply Chain Management ,Sophomore,Samantha Ortiz,THON Rules and Regulations Committee Member,3.3,40
+Jess Nguyen,jbn5403,False,0.7597113664186834,5.0,Grace,0.5,0.5,62.99,Supply Chain & Economics,Sophomore,"Fabiana,Anisha",n/a,3.93,31
+Michelle Zheng,mmz5408,False,0.7884615384615384,4.0,Aayod,0.5,0.5,61.42,Finance,Sophomore,"Maanya Devaprasad, Rusham Katoch, Megan Kang, Diego Pittorino, Cooper Smith, Praharsh Upadhyaya, Ben Azzalina, Amanda Garcia, Lyndsey Zezzo, Vasilia Briegel","Sapphire Leadership Academic Program, Nittany Lion Fund, FinTech Group, Penn State Fuzhou Student Association",3.8,28
+Olivia Salupo,obs5099,False,0.6716836294635156,7.5,Diego,0.5,0.0,61.08,Marketing,Sophomore,N/A,"THON PR Media Development committee member (social media chair), Women in Business club member, Phi Eta Sigma Honors Society member, THON Supply Logistics FYC (freshman year).",3.8,42
+Shiri Hollingsworth,smh7472,False,0.6875,7.0,Aayod,0.5,0.0,60.38,Mechanical Engineering,Sophomore,N/A,"Society of Women Engineers, Ski Club, Club Figure Skating",3.08,13
+Sid Tilak,sxt5627,False,0.775,5.5,Ketch,0.0,0.5,60.25,Accounting/SCM,Sophomore,"Tristan, RJ, Michael Mengine",Sports Business Club,3.25,15
+Elyssa Jung,ezj5166,False,0.7696428571428572,3.5,Diego,1.0,0.0,58.98,First sem: Chem/Pre Med Second sem: BBH/Pre Med,Freshmen,"Sophie Kersun, Maanya",Snowboard Club,3.04,25
+Brooke Bau,bmb6763,False,0.7227564102564102,7.5,Ben,0.0,0.0,58.64,DUS,Freshmen,N/A,"Blue and White Society, PSRA, University Choir, Oriana Singers",3.24,25
+Elizabeth Cursey,ebc5473,False,0.7447916666666666,7.0,Ketch,0.0,0.0,58.24,Biobehavioral Health,Sophomore,N/A,"Ohana, Pre-PA Club, Business in Cosmetics Club",3.73,11
+Shannon Mullin,sdm5870,False,0.8595815474121842,5.0,Aayod,0.0,0.0,57.98,Biobehavioral Health,Sophomore,"Allison Spalding, Ian Savitski, Lila Mathias",Life Link,4,21
+Olivia Gatto,omg5172,False,0.7387254901960785,7.0,Yash,0.0,0.0,57.94,Criminology,Sophomore,Allison Spalding,"Vole, Reach, Business in Cosmetics, PAD",3.13,18
+Joshua Bechtel ,jdb6883,False,0.8561046511627907,0,,0.5,1.0,57.81,DUS (Intended Finance),Freshmen,"Ian Savitski, Lila Mathias, Sam Marshal, McKenna Schrenk, ","Kaizen THON Committee, CRT (cadet relations team), Army Ranger Challenge Club, ROTC Bible Study  ",3.75,32
+Ava Fazio,acf5527,False,0.7125,5.5,Grace,0.0,0.5,57.12,Communications,Sophomore,Samantha Ortiz,"THON, AWSM",3.4,29
+Angela Zimmerman,alz5203,False,0.7403846153846154,5.0,Yash,0.5,0.0,57.02,Management,Sophomore,"Mackenzie Bronk, Jake Licata","Blue Band, Alpha Delta Pi Sorority",3.18,22
+Ella Reifer,emr6186,False,0.7072853998532648,3.5,Anushka,0.5,0.5,55.86,Advertising/Public Relations,Freshmen,Jessica Padula,"AD/PR Club, Rules and Regulations THON committee, THON organization, Blue and White Society, CHAARG",3.64,21
+Samuel Drap,smd6913,False,0.728134110787172,4.5,Diego,0.0,0.5,54.91,Finance/Accounting,Sophomore,N/A,"THON Hospitality, Finance Society",3.59,13
+Mark Jermyn,mcj5384,False,0.7086700170805412,4.5,Yash,0.5,0.0,53.93,Undecided (want to do real estate),Freshmen,N/A,"FOTO, Penn State Snowboard Club (PSSC)",3.38,21
+Elana Kondos,elk5374,False,0.6264204545454546,5.5,Ketch,0.5,0.0,52.82,Finance ,Sophomore,"Sam Ortiz, Rithu GS, etc",Kappa Kappa Gamma,3.55,31
+Saumya Patel,smp7211,False,0.75,5.0,Eric,0.0,0.0,52.5,Undecided- Finance Track Plan,Freshmen,N/A,"PSDA, Finance Society ",3.83,1
+Diego Eve Hidalgo,dje5441,False,0.6463098534967605,5.0,Ben,0.5,0.0,52.32,BBH,Freshmen,Mackenzie,none,2.69,38
+Owen Flowers,osf5029,False,0.7162717601547389,4.25,Grace,0.0,0.0,48.56,Accounting,Sophomore,Maivy Dang,"Accounting Society, Penn State Snowboard Club",3.83,18
+Ella St.Myer,eks5908,False,0.8194444444444444,2.0,Anushka,0.0,0.0,46.97,Finance,Freshmen,N/A,PSDA,High school GPA (first semester at penn state) - 4.22/4.0,9
+Patrick Drexler,pjd5632,False,0.7283045977011494,3.5,Grace,0.0,0.0,46.92,Cybersecurity Analytics and Operations,Freshmen,Matt Corr,Cycerts Club,3,23
+Charlotte Costich,cgc5396,False,0.7039473684210527,0,,0.5,0.5,45.2,Finance,Sophomore,Allison Spalding,Varsity Track and Field,3.77,30
+Anthony DiGiacomo,amd8134,False,0.875,0,,0.0,0.0,43.75,Finance and Italian,Freshmen,NA,FIA,4,2
+Maddux Campbell ,mtc5619,False,0.7666666666666667,0,,0.5,0.0,43.33,Business management ,Sophomore,N/A,Alpha phi sorority,3.24,15
+Dominic Rossiello,dmr6505,False,0.6672697368421053,3.0,Diego,0.0,0.0,42.36,Undecided/DUS,Freshmen,N/A,Intramural Sports,2.41 (2.71 after Bio161 grade forgiveness),18
+Phoebe Vince,pev5042,False,0.7364423076923077,0,,0.5,0.0,41.82,Hospitality Management ,Freshmen,N/A,"Hershey Kisses, Thon organization. ",3.74,21
+Sam Engel,she5092,False,0.8041666666666667,0,,0.0,0.0,40.21,Management,Sophomore,N/A,THON Dancer Relations Commitee,3.17,15
+Abby Lewis,ael5759,False,0.7654278664916963,0,,0.0,0.0,38.27,Biology,Freshmen,Jess Padula,Volé,3.86,37
+Lucija Glavan,lmg6130,False,0.7627118644067796,0,,0.0,0.0,38.14,Marketing,Junior,N/A,VALLEY Magazine,3.21,15
+Caitlin Karnis,cak6257,False,0.7589257430969852,0,,0.0,0.0,37.95,Finance,Freshmen,N/A,N/A,3.59,26
+Bill Stilley,wms5443,False,0.6935483870967742,0,,0.0,0.0,34.68,Finance,Freshmen,N/A,PSIA,3.73,16
+Alexander Abboud,aca5560,False,0.6755952380952381,0,,0.0,0.0,33.78,Finance,Freshmen,N/A,N/A,3.77,18
+vaisnavi bontapalli,vpb5175,False,0.675385109114249,0,,0,0.0,33.77,finance or accounting,Freshmen,NA,"Women in business, Sasa, Nittany Ai",3.2,15
