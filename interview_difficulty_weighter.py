@@ -15,6 +15,8 @@ class InterviewWeighter:
 
             for row in csv_reader:
                 interviewer = row[2]
+                if row[3] == "":  # Skip empty scores
+                    continue
                 score = float(row[3])
 
                 self.global_sum += score

@@ -51,25 +51,25 @@ class Rush:
 # CHANGE THESE =================================================================================
 rush_profile_filename = "real_data/rush_profile.csv"
 
-sd_scores_filename = "real_data/sd_results_cleaned.csv"
-mingle_scores_filename = "real_data/bm_results_cleaned.csv"
-bbq_scores_filename = "real_data/bbq_results_cleaned.csv"
+sd_scores_filename = "real_data/sd_results.csv"
+mingle_scores_filename = "real_data/bm_results.csv"
+bbq_scores_filename = "real_data/gn_results.csv"
 
 # no votes used since fa 22
 # votes_filename = ["real_data/vote_responses_1.csv", "real_data/vote_responses_2.csv", "real_data/vote_responses_3.csv"]  
 
-interview_responses_filename = "real_data/interview_scores.csv"
-rush_scores_filename = "real_data/rush_scores.csv"
-pm_scores_filename = "real_data/pm_scores.csv"
+interview_responses_filename = "real_data/adjusted_interview_scores.csv"
+rush_scores_filename = "real_data/rush_scoring.csv"
+pm_scores_filename = "real_data/pm_scoring.csv"
 
-cut_sheet_filename = "real_data/cut.csv"
-cut_sheet_2_filename = "real_data/cut_info_2.csv"
+cut_sheet_filename = "real_data/final_cut.csv"
+cut_sheet_2_filename = ""
 
 slides_info_filename = "real_data/slides_info.csv" # output file
 db_final_filename = "real_data/db_final_final.csv" # output file
 # ==============================================================================================
 
-cut_sheets = [cut_sheet_filename, cut_sheet_2_filename]
+cut_sheets = [cut_sheet_filename]
 
 score_filenames = [
     sd_scores_filename,
@@ -91,11 +91,11 @@ for row in data[1:]:
             found = True
     if not found:
         new_rush = Rush(row[1], row[2].lower())
-        new_rush.major = row[5]
-        new_rush.year = row[8]
-        new_rush.previously_knowns = row[10]
-        new_rush.clubs = row[11]
-        new_rush.gpa = row[12]
+        new_rush.major = row[4]
+        new_rush.year = row[7]
+        new_rush.previously_knowns = row[8]
+        new_rush.clubs = row[9]
+        new_rush.gpa = row[10]
         new_rush.email = row[3]
         rushes.append(new_rush)
 
@@ -152,16 +152,17 @@ for row in data:
                 break
 
 # parse cuts 2
-with open(cut_sheet_2_filename, newline="") as f:
-    reader = csv.reader(f)
-    data = list(reader)
-for row in data:
-    if row[10] == "T":
-        id = row[1].lower()
-        for rush in rushes:
-            if rush.id == id:
-                rush.cut = True
-                break
+if cut_sheet_2_filename != "":
+    with open(cut_sheet_2_filename, newline="") as f:
+        reader = csv.reader(f)
+        data = list(reader)
+    for row in data:
+        if row[10] == "T":
+            id = row[1].lower()
+            for rush in rushes:
+                if rush.id == id:
+                    rush.cut = True
+                    break
 
 # parse pm scores
 with open(pm_scores_filename, newline="") as f:
