@@ -49,14 +49,14 @@ class Rush:
         )
 
 # CHANGE THESE =================================================================================
-sd_scores_filename = "real_data/sd_results_cleaned_final.csv"
-mingle_scores_filename = "real_data/bm_results_cleaned.csv"
-gn_scores_filename = "real_data/gn_results_cleaned.csv"
+sd_scores_filename = "real_data/sd_results.csv"
+mingle_scores_filename = "real_data/bm_results.csv"
+gn_scores_filename = "real_data/gn_results.csv"
 
-cut_sheet_filename = "real_data/cut_sheet.csv"
+cut_sheet_filename = "real_data/final_cut.csv"
 cut_sheet_2_filename = ""
 
-rush_profile_filename = "real_data/rush_profile_cleaned.csv"
+rush_profile_filename = "real_data/rush_profile.csv"
 
 summary_filename = "real_data/survey_summary.csv"
 # ==============================================================================================
@@ -71,11 +71,11 @@ with open(rush_profile_filename, newline="") as f:
 
 for row in data[1:]:
     new_rush = Rush(row[1].lower(), row[2].lower())
-    new_rush.major = row[5]
-    new_rush.year = row[8]
-    new_rush.previously_knowns = row[9]
-    new_rush.clubs = row[10]
-    new_rush.gpa = row[11]
+    new_rush.major = row[4]
+    new_rush.year = row[7]
+    new_rush.previously_knowns = row[8]
+    new_rush.clubs = row[9]
+    new_rush.gpa = row[10]
     new_rush.email = row[3]
     rushes.append(new_rush)
 
