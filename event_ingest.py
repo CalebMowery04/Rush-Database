@@ -69,7 +69,7 @@ def ingest(filenames, save_as):
                                 current_rush.interaction_names.append(data[row][1].lower())
                             interactions += 1
                             running_points += convert_response(response)
-                            running_possible_points += 4
+                            running_possible_points += 3
                 # we are at comment row, total points
                 elif col % 7 == 1:
                     if row == 0:
@@ -79,8 +79,8 @@ def ingest(filenames, save_as):
                             current_rush.score = total_score
                         else:
                             current_rush.score = 0
-                        # interactions is counted for each response so 4x too many
-                        current_rush.interactions = int(interactions / 4)
+                        # interactions is counted for each response so 3x too many
+                        current_rush.interactions = int(interactions / 3)
                     # add all the comments
                     else:
                         if data[row][col] != "":
