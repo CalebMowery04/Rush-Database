@@ -239,8 +239,8 @@ for i in range(3):
 # **************** THESE WEIGHTINGS CAN CHANGE SEMESTER TO SEMESTER ****************
 for rush in rushes:
     rush.rush_week_score = (
-        0.5 * rush.db_score
-        + 0.03 * rush.interview_score # extra 0 because interview scores are 0-10
+        0.6 * rush.db_score
+        + 0.02 * rush.interview_score # extra 0 because interview scores are 0-10
         + 0.1 * rush.pm_score
         + 0.1 * rush.rush_score
     )
