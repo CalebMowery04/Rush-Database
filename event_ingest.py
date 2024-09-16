@@ -49,7 +49,7 @@ def ingest(filenames, save_as):
         for col in range(2, len(data[0])):
             for row in range(len(data)):
                 # name:id case, initialize
-                if col % 7 == 2:
+                if col % 6 == 2:
                     if row == 0:
                         header = data[0][col]
                         split_data = header.split("/")
@@ -61,17 +61,17 @@ def ingest(filenames, save_as):
                         current_rush = new_rush
                         running_points, running_possible_points, interactions = 0, 0, 0
                 # skip comment col (1) and interact column (3)
-                elif col % 7 != 1 and col % 7 != 3:
+                elif col % 6 != 1 and col % 6 != 3:
                     if row != 0:
                         response = data[row][col]
                         if response != "":
-                            if col % 7 == 4:
+                            if col % 6 == 4:
                                 current_rush.interaction_names.append(data[row][1].lower())
                             interactions += 1
                             running_points += convert_response(response)
-                            running_possible_points += 3
+                            running_possible_points += 4
                 # we are at comment row, total points
-                elif col % 7 == 1:
+                elif col % 6 == 1:
                     if row == 0:
                         comments = []
                         if running_possible_points > 0:
