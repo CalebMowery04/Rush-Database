@@ -116,10 +116,15 @@ def ingest(filenames, save_as):
 
 # CHANGE THESE =================================================================================
 event_responses_filenames = [
-    "real_data/GN1.csv",
-    "real_data/GN2.csv",
+    "real_data/sd0.csv",
+    "real_data/sd1.csv",
+    "real_data/sd2.csv",
+    "real_data/sd3.csv",
+    "real_data/sd4.csv",
+    "real_data/sd5.csv",
+    "real_data/sd6.csv",
 ]
-event_results_filename = "real_data/gn_results.csv" # output file
+event_results_filename = "real_data/sd_results.csv" # output file
 # ==============================================================================================
 
 rush_scores = ingest(event_responses_filenames, event_results_filename)
