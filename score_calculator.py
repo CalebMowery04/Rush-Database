@@ -74,7 +74,7 @@ cut_sheets = [cut_sheet_filename]
 score_filenames = [
     sd_scores_filename,
     mingle_scores_filename,
-    bbq_scores_filename,
+    bbq_scores_filename
 ]
 
 rushes = []
