@@ -48,16 +48,16 @@ class Rush:
         )
 
 # CHANGE THESE =================================================================================
-sd_scores_filename = "real_data/sd_results_cleaned.csv"
-mingle_scores_filename = "real_data/bm_results_cleaned.csv"
-gn_scores_filename = "real_data/bbq_results_cleaned.csv"
+sd_scores_filename = "real_data/sd_results.csv"
+mingle_scores_filename = "real_data/bm_results.csv"
+gn_scores_filename = "real_data/bbq_results.csv"
 
-cut_sheet_filename = "real_data/cut.csv"
+cut_sheet_filename = "real_data/cut_cleaned.csv"
 
 cut_sheet_2_filename = "real_data/cut_info_2.csv" # output file
-# ==============================================================================================
 
 rush_profile_filename = "real_data/rush_profile.csv"
+# ==============================================================================================
 
 score_filenames = [
     sd_scores_filename,
@@ -97,6 +97,7 @@ for i in range(3):
     for row in data:
         for rush in rushes:
             if rush.id == row[1].lower():
+                print(row)
                 rush.scores[i] = float(row[2])
                 rush.interactions[i] = int(row[4])
                 rush.total_interactions += int(row[4])
@@ -130,7 +131,7 @@ with open(cut_sheet_filename, newline="") as f:
     data = list(reader)
 
 for row in data[1:]:
-    if row[7] == "T":
+    if row[8] == "T":
         for rush in rushes:
             if rush.id == row[1].lower():
                 rush.cut = True
@@ -149,8 +150,8 @@ with open(cut_sheet_2_filename, "w") as csvfile:
             "Speed Dating Interactions",
             "Mingle Score",
             "Mingle Interactions",
-            "Game Night Score",
-            "Game Night Interactions",
+            "BBQ Score",
+            "BBQ Interactions",
             "Overall Score",
             "Comments",
             "Cut",
