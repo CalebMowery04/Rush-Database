@@ -144,7 +144,7 @@ with open(cut_sheet_filename, newline="") as f:
     reader = csv.reader(f)
     data = list(reader)
 for row in data:
-    if row[7] == "T":
+    if row[8] == "T":
         id = row[1].lower()
         for rush in rushes:
             if rush.id == id:
