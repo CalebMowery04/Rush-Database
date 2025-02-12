@@ -116,10 +116,11 @@ def ingest(filenames, save_as):
 
 # CHANGE THESE =================================================================================
 event_responses_filenames = [
-    "real_data/bbq1.csv",
-    "real_data/bbq2.csv",
-    "real_data/bbq3.csv",
-    "real_data/bbq4.csv",
+   "real_data/sd0.csv",
+   "real_data/sd1.csv",
+    "real_data/sd2.csv",
+    "real_data/sd3.csv",
+    "real_data/sd4.csv",
 ]
 event_results_filename = "real_data/bbq_results.csv" # output file
 # ==============================================================================================
