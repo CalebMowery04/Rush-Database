@@ -53,7 +53,7 @@ rush_profile_filename = "real_data/rush_profile.csv"
 
 sd_scores_filename = "real_data/sd_results.csv"
 mingle_scores_filename = "real_data/bm_results.csv"
-bbq_scores_filename = "real_data/bbq_results.csv"
+bbq_scores_filename = "real_data/gn_results.csv"
 
 # no votes used since fa 22
 # votes_filename = ["real_data/vote_responses_1.csv", "real_data/vote_responses_2.csv", "real_data/vote_responses_3.csv"]  
