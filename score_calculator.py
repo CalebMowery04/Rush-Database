@@ -62,8 +62,8 @@ interview_responses_filename = "real_data/adjusted_interview_results.csv"
 rush_scores_filename = "real_data/rush_scoring.csv"
 pm_scores_filename = "real_data/pm_scoring.csv"
 
-cut_sheet_filename = "real_data/cut_cleaned.csv"
-cut_sheet_2_filename = "real_data/cut_2_cleaned.csv"
+cut_sheet_filename = "real_data/cut.csv"
+# cut_sheet_2_filename = "real_data/cut_2_cleaned.csv"
 
 slides_info_filename = "real_data/slides_info.csv" # output file
 db_final_filename = "real_data/db_final_final.csv" # output file
