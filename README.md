@@ -1,1 +1,1 @@
-# Rush scripts for AKPsi FA2023 Rush
+# Rush scripts for AKPsi FA2025 Rush
