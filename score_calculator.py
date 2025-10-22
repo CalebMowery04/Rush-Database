@@ -49,24 +49,24 @@ class Rush:
 
 
 # CHANGE THESE =================================================================================
-rush_profile_filename = "real_data/rush_profile.csv"
+rush_profile_filename = "old_data/rush_profile.csv"
 
-sd_scores_filename = "real_data/sd_results.csv"
-mingle_scores_filename = "real_data/bm_results.csv"
-bbq_scores_filename = "real_data/bbq_results.csv"
+sd_scores_filename = "old_data/event1_results.csv"
+mingle_scores_filename = "old_data/event2_results.csv"
+bbq_scores_filename = "old_data/event3_results.csv"
 
-# no votes used since fa 22
+# no votes used
 # votes_filename = ["real_data/vote_responses_1.csv", "real_data/vote_responses_2.csv", "real_data/vote_responses_3.csv"]  
 
-interview_responses_filename = "real_data/adjusted_interview_results.csv"
-rush_scores_filename = "real_data/rush_scoring.csv"
-pm_scores_filename = "real_data/pm_scoring.csv"
+interview_responses_filename = "old_data/adjusted_interview_results.csv"
+rush_scores_filename = "old_data/rush_chair_scoring.csv"
+pm_scores_filename = "old_data/pm_scoring.csv"
 
-cut_sheet_filename = "real_data/cut_info_2_clean.csv"
+cut_sheet_filename = "old_data/cut_info_2_clean.csv"
 # cut_sheet_2_filename = "real_data/cut_2_cleaned.csv"
 
-slides_info_filename = "real_data/slides_info.csv" # output file
-db_final_filename = "real_data/db_final_final.csv" # output file
+slides_info_filename = "old_data/slides_info.csv" # output file
+db_final_filename = "old_data/db_final_final.csv" # output file
 # ==============================================================================================
 
 cut_sheets = [cut_sheet_filename]

@@ -57,7 +57,7 @@ def ingest(filenames, save_as):
                         split_data = header.split("/")
                         print(split_data)
                         name = split_data[0]
-                        id = split_data[1]
+                        id = split_data[1].lower()
                         new_rush = Rush(name, id)
                         rushes.append(new_rush)
                         current_rush = new_rush
@@ -116,13 +116,13 @@ def ingest(filenames, save_as):
 
 # CHANGE THESE =================================================================================
 event_responses_filenames = [
-    "old_data/sd0.csv",
-    #"real_data/sd1.csv",
-    #"real_data/sd2.csv",
-    #"real_data/sd3.csv"
+    "old_data/event3_file1.csv"
+    #"real_data/event1_file1.csv",
+    #"real_data/event1_file2.csv",
+    #"real_data/event1_file3.csv"
     #...
 ]
-event_results_filename = "old_data/sd_results.csv" # output file
+event_results_filename = "old_data/event3_results.csv" # output file
 # ==============================================================================================
 
 rush_scores = ingest(event_responses_filenames, event_results_filename)

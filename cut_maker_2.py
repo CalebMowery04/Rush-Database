@@ -48,15 +48,15 @@ class Rush:
         )
 
 # CHANGE THESE =================================================================================
-sd_scores_filename = "real_data/sd_results.csv"
-mingle_scores_filename = "real_data/bm_results.csv"
-gn_scores_filename = "real_data/bbq_results.csv"
+sd_scores_filename = "old_data/event1_results.csv"
+mingle_scores_filename = "old_data/event2_results.csv"
+gn_scores_filename = "old_data/event3_results.csv"
 
-cut_sheet_filename = "real_data/cut_cleaned.csv"
+cut_sheet_filename = "old_data/cut_cleaned.csv"
 
-cut_sheet_2_filename = "real_data/cut_info_2.csv" # output file
+cut_sheet_2_filename = "old_data/cut_info_2.csv" # output file
 
-rush_profile_filename = "real_data/rush_profile.csv"
+rush_profile_filename = "old_data/rush_profile.csv"
 # ==============================================================================================
 
 score_filenames = [
