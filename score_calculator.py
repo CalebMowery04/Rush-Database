@@ -203,7 +203,7 @@ for row in data[1:]:
                 rush.head_interviewer = row[2]
             break
 
-# BROTHERHOOD VOTE REMOVED FA 22
+# BROTHERHOOD VOTE REMOVED
 '''
 # parse brotherhood vote
 for i in range(3):

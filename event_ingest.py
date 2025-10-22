@@ -116,7 +116,7 @@ def ingest(filenames, save_as):
 
 # CHANGE THESE =================================================================================
 event_responses_filenames = [
-    "old_data/sd1.csv",
+    "old_data/sd0.csv",
     #"real_data/sd1.csv",
     #"real_data/sd2.csv",
     #"real_data/sd3.csv"
