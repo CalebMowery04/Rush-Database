@@ -1,1 +1,1 @@
-# Rush scripts for new member recruitment of a Business Fraternity
+# Rush scripts for new member recruitment of a business fraternity
